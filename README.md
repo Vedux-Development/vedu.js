@@ -1,3 +1,11 @@
+# Important!
+
+***This is a pre-release of the package! This is not functional yet!***
+
+***This doesn't work at all!***
+<br>
+<br>
+<br>
 # vedu.js
 
 Hello, welcome to the NPM/GitHub page for `vedu.js`!
