@@ -1,6 +1,6 @@
 {
-  "name": "discord.js",
-  "version": "12.5.0",
+  "name": "vedu.js",
+  "version": "0.0.1",
   "description": "A powerful library for interacting with the Discord API",
   "main": "./src/index",
   "types": "./typings/index.d.ts",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/discordjs/discord.js.git"
+    "url": ""
   },
   "keywords": [
     "discord",
@@ -37,12 +37,12 @@
     "node",
     "discordapp"
   ],
-  "author": "Amish Shah <amishshah.2k@gmail.com>",
+  "author": "Vedux",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/discordjs/discord.js/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/discordjs/discord.js#readme",
+  "homepage": "",
   "runkitExampleFilename": "./docs/examples/ping.js",
   "dependencies": {
     "@discordjs/collection": "^0.1.6",
