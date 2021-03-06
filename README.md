@@ -2,7 +2,7 @@
 
 Hello, welcome to the NPM/GitHub page for `vedu.js`!
 
-This package is designed to make [`discord.js`](https://npmjs.org/discord.js) easier <br>for beginners of javascript in general.<br>
+This package is designed to make [`discord.js`](https://npmjs.org/discord.js) easier for beginners of javascript in general.<br>
 If you're having trouble, please, come to our [Discord Server](#Vedux-Development-servers) and say hi!<br>
 
 ###  How to set up.
