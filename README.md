@@ -3,6 +3,7 @@
 ***This is a pre-release of the package! This is not functional yet!***
 
 ***This doesn't work at all!***
+***Join the main [discord server](#Vedux-Development-servers) for more information/updates!***
 <br>
 <br>
 <br>
