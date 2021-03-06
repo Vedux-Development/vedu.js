@@ -1,33 +1,33 @@
 {
-  "name": "vedu.js",
-  "version": "0.0.1",
-  "description": "A simpler discord.js.",
-  "main": "./discord.js/src/index",
-  "types": "./discord.js/typings/index.d.ts",
+  "name": "discord.js",
+  "version": "12.5.0",
+  "description": "A powerful library for interacting with the Discord API",
+  "main": "./src/index",
+  "types": "./typings/index.d.ts",
   "exports": {
     ".": [
       {
-        "require": "./discord.js/src/index.js",
-        "import": "./discord.js/esm/discord.mjs"
+        "require": "./src/index.js",
+        "import": "./esm/discord.mjs"
       },
-      "./discord.js/src/index.js"
+      "./src/index.js"
     ],
-    "./esm": "./discord.js/esm/discord.mjs"
+    "./esm": "./esm/discord.mjs"
   },
   "scripts": {
     "test": "npm run lint && npm run docs:test && npm run lint:typings",
     "test:typescript": "tsc",
     "docs": "docgen --source src --custom docs/index.yml --output docs/docs.json",
     "docs:test": "docgen --source src --custom docs/index.yml",
-    "lint": "eslint discord.js/src",
-    "lint:fix": "eslint discord.js/src --fix",
-    "lint:typings": "tslint discord.js/typings/index.d.ts",
-    "prettier": "prettier --write discord.js/src/**/*.js discord.js/typings/**/*.ts",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "lint:typings": "tslint typings/index.d.ts",
+    "prettier": "prettier --write src/**/*.js typings/**/*.ts",
     "prepublishOnly": "npm run test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vedux-Development/vedu.js.git"
+    "url": "git+https://github.com/discordjs/discord.js.git"
   },
   "keywords": [
     "discord",
@@ -37,13 +37,13 @@
     "node",
     "discordapp"
   ],
-  "author": "Vedux Development",
+  "author": "Amish Shah <amishshah.2k@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Vedux-Development/vedu.js/issues"
+    "url": "https://github.com/discordjs/discord.js/issues"
   },
-  "homepage": "https://github.com/Vedux-Development/vedu.js#readme",
-  "runkitExampleFilename": "./discord.js/docs/examples/ping.js",
+  "homepage": "https://github.com/discordjs/discord.js#readme",
+  "runkitExampleFilename": "./docs/examples/ping.js",
   "dependencies": {
     "@discordjs/collection": "^0.1.6",
     "@discordjs/form-data": "^3.0.1",
